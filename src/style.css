@@ -8,7 +8,7 @@ body{
 }
 
 .background{
-    background: url("public/7c75b289c9c18a2eedadee57f17a752a.jpg");
+    background-image: url("public/7c75b289c9c18a2eedadee57f17a752a.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
