@@ -1,4 +1,5 @@
 <script setup>
+const music = `${import.meta.env.BASE_URL}music/anotherlove.mp3`
 </script>
 
 <template>
@@ -9,7 +10,7 @@
           <h1>زادروزت مبارک</h1>
           <h3> بابت بزرگترین درسای زندگیم ازت ممنونم و این یدونه تبریکم از قبل بهت بدهکار بودم کم و کاستش رو ببخش</h3>
           <br>
-          <audio src="/bita/music/anotherlove.mp3">
+          <audio controls :src=music >
             مرورگر شما از پخش صدا پشتیبانی نمی‌کند.
           </audio>
         </div>
